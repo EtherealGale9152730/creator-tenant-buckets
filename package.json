@@ -1,0 +1,17 @@
+{
+  "name": "creator-tenant-buckets",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/creator-storage.ts",
+    "test": "tsx src/creator-storage.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.0.0",
+    "zod": "^3.23.8"
+  }
+}
